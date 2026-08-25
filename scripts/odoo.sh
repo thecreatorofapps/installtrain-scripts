@@ -25,7 +25,7 @@ IS_ENTERPRISE="False"
 # Installs postgreSQL V16 instead of defaults (e.g V12 for Ubuntu 20/22) - this improves performance
 INSTALL_POSTGRESQL_SIXTEEN="True"
 # Set this to True if you want to install Nginx!
-INSTALL_NGINX="${$nginx:-False}"
+INSTALL_NGINX="${$nginx:-True}"
 # Set the superadmin password - if GENERATE_RANDOM_PASSWORD is set to "True" we will automatically generate a random password, otherwise we use this one
 OE_SUPERADMIN="admin"
 # Set to "True" to generate a random password, "False" to use the variable in OE_SUPERADMIN
